@@ -1,9 +1,9 @@
-const updateAllTasks = require('./httpClient/updateAllTasks.js');
+const updateAllTasks = require("./httpClient/updateAllTasks.js");
 
 async function main() {
-    await updateAllTasks();
+  await updateAllTasks();
 }
 
-main().catch(err => {
-    console.error(err);
-})
+main().catch((err) => {
+  console.error(err);
+});
